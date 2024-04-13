@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import lastGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-grapheme-cluster@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-last-grapheme-cluster/tags). For example,
+
+```javascript
 import lastGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-grapheme-cluster@v0.1.0-deno/mod.js';
 ```
 
@@ -71,7 +76,7 @@ out = lastGraphemeCluster( 'foo bar', 10 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import lastGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-grapheme-cluster@v0.1.0-deno/mod.js';
+import lastGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-grapheme-cluster@deno/mod.js';
 
 var str = lastGraphemeCluster( 'Hello World!', 1 );
 // returns '!'

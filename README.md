@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import lastGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-grapheme-cluster@esm/index.mjs';
+import lastGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-grapheme-cluster@v0.1.0-esm/index.mjs';
 ```
 
 #### lastGraphemeCluster( str, n )
@@ -76,7 +76,7 @@ out = lastGraphemeCluster( 'foo bar', 10 );
 <body>
 <script type="module">
 
-import lastGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-grapheme-cluster@esm/index.mjs';
+import lastGraphemeCluster from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-grapheme-cluster@v0.1.0-esm/index.mjs';
 
 var str = lastGraphemeCluster( 'Hello World!', 1 );
 // returns '!'

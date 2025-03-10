@@ -38,8 +38,8 @@
   },
   "dependencies": {
     "@stdlib/array-base-zeros": "^0.2.2",
-    "@stdlib/string-next-grapheme-cluster-break": "^0.2.2",
-    "@stdlib/utils-circular-buffer": "^0.2.1"
+    "@stdlib/dstructs-circular-buffer": "github:stdlib-js/dstructs-circular-buffer#main",
+    "@stdlib/string-next-grapheme-cluster-break": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-string": "^0.2.2",

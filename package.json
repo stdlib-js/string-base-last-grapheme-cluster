@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/array-base-zeros": "^0.2.3",
-    "@stdlib/dstructs-circular-buffer": "^0.1.0",
+    "@stdlib/dstructs-circular-buffer": "^0.1.1",
     "@stdlib/string-next-grapheme-cluster-break": "^0.2.3"
   },
   "devDependencies": {
